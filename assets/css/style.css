@@ -1,0 +1,93 @@
+body{
+    font-family: "Roboto",sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+}
+.contactos{
+    width: 20%;
+}
+.networking{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contacto{
+    display: flex;
+
+}
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centradom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #d1d1d1;
+    /* min-width: 20vw;
+    min-height: 10vh; */
+    padding: 3vh;
+}
+.cuadro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d1d1d1;
+    /* min-width: 20vw;
+    min-height: 10vh; */
+    padding: 2vh;
+}
+.centradom img{
+    width: 40px;
+    border-radius: 3rem;
+}
+.centradoi{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.centradoi i{
+    padding: 5px;
+}
+p{
+    margin: 0;
+}
+.networking h1{
+    font-size: larger;
+}
+.cuadro img{
+    width: 55px;
+    border-radius: 3rem;
+}
+.centrado h6{
+    text-align: center;
+}
+button{
+    background-color: #a491d2 ;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    border-color: #a491d2;
+}
+.cuadroi{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+.cuadrop{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.cuadrop h2{
+    font-size: medium;
+}
+.cuadrop h3{
+    font-weight: 500;
+    font-size: small;
+}
